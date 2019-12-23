@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tour';
+  title = 'Tour of heroes';
+
+  childHogeValue:string = 'inital value';
 }
